@@ -13,7 +13,7 @@ hdr = {"Auth-Key": "appxapi",
        "User-Agent": "okhttp/4.9.1"
        }
 
-data = {"email": "7351881682", "password": ""}
+data = {"email": "edicuik@telegmail.com", "password": "hackerweb@12"}
 res = requests.post(rwa_url, data=data, headers=hdr).json()
 print(res)
 userid = res["data"]["userid"]
